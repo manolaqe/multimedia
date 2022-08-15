@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!-- 
+Autor: Mihai-Andrei Manolache
+Grupa: 1086
+Titlu: Program de desenare raster folosind elementul canvas
+ -->
+
+<html>
+
+<head>
+    <title>1_1086_MANOLACHE_MIHAI-ANDREI</title>
+    <link rel="stylesheet" type="text/css" href="1_1086_MANOLACHE_MIHAI_ANDREI.css" media="screen">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <div>
+        <label for="instrumentSelect">Instrument:</label>
+        <select name="instrument" id="instrumentSelect">
+        <option value="elipsa">Elipsa</option>
+        <option value="dreptunghi">Dreptunghi</option>
+        <option value="linie">Linie</option>
+    </select>
+    </div>
+    <div>
+        <label for="colorPicker">Culoare:</label>
+        <input type="color" id="colorPicker" />
+    </div>
+    <div>
+        <label for="widthSlider">Grosime:</label>
+        <input type="range" id="widthSlider" min="1" max="100" value="1" />
+    </div>
+    <div>
+        <label for="backgroundPicker">Culoare Fundal:</label>
+        <input type="color" id="backgroundPicker" />
+    </div>
+    <div>
+        <label for="figuri">Alege o figura pe care vrei sa o stergi:</label>
+        <select name="figuri" id="figuri"></select>
+    </div>
+    <div>
+        <label for="downloadPNG">Descarca desen in format png:</label>
+        <a id="downloadPNG" href="#" download="desen" style="color:gold; font-weight: 1000;">
+            .png
+        </a>
+
+    </div>
+</body>
+
+<script src="1_1086_MANOLACHE_MIHAI_ANDREI.js"></script>
+
+</html>

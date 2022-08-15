@@ -1,0 +1,16 @@
+/* 
+Autor: Mihai-Andrei Manolache
+Grupa: 1086
+Titlu: Program de desenare raster folosind elementul canvas
+*/
+
+body {
+    background-color: #1b1b1b;
+    background-image: url("media/background.jpg");
+    background-blend-mode: multiply;
+    color: snow;
+}
+
+#canvas {
+    border: 2px solid snow;
+}
